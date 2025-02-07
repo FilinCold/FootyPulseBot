@@ -1,0 +1,37 @@
+{
+  "name": "parser-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@2captcha/captcha-solver": "^1.3.0",
+    "@grammyjs/menu": "^1.3.0",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "grammy": "^1.33.0",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "puppeteer": "^23.10.0",
+    "puppeteer-core": "^23.11.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.22.1",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "nodemon": "^3.1.7"
+  }
+}
